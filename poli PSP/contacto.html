@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aula de Estilo - Tienda de Uniformes Colegiales. Encuentra los mejores uniformes colegiales aquí.">
+    <title>Contacto - Aula de Estilo</title>
+    <link rel="stylesheet" href="stilos.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Aula de Estilo">
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">Quiénes Somos</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="contacto">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono" required>
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Puedes contactarnos a través de nuestro correo electrónico: contacto@auladeestilo.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Aula de Estilo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
